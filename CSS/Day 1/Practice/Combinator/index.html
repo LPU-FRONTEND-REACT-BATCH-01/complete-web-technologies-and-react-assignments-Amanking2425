@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinator selector</title>
+
+<style>
+        /* Descendant combinator */
+        ul h1{
+            background-color: greenyellow;
+        }
+
+
+        /* Child combinator */
+        ul li{
+            color: red;
+        }
+        ol > li{
+            color: darkblue;
+        }
+
+        .non_veg li{
+            background-color: aqua;
+        }
+        .veg {
+            color: blue;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <ul >
+        <h1>List of Vegeterian foods</h1>
+        <li>Rice</li>
+        <li>Pulses</li>
+        <li >
+            <div class="veg">
+            Paneer
+            <ol >
+                <li>Matar Paneer</li>
+                <li>Sahi Paneer</li>
+                <li>Kadhai Paneer</li>
+            </ol>
+            </div>
+        </li>
+        <li>Milk</li>
+    </ul>
+
+    <ul >
+        <h1>List of now-veg foods</h1>
+        <li>Fish</li>
+        <li>Chicken
+            <ol class = "non_veg">
+                <li>Fried Chicken</li>
+                <li>Grilled Chicken</li>
+                <li>Roasted Chicken</li>
+            </ol>
+        </li>
+        <li>Mutton</li>
+        <li>Eggs</li>
+    </ul>
+</body>
+</html>
