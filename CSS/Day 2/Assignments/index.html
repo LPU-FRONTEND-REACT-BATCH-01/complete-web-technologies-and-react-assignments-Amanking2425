@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            text-align: center;
+            line-height: 10px;
+            font-size: 40px;
+            
+           
+        }
+        .card:hover {
+            letter-spacing: 2px;
+            /* text-shadow: 10px 1px 10px red; */
+        }
+        .card:hover .c1{
+            color: Red;
+        }
+        .b1{
+            font-size: larger;
+        }
+        .b2{
+            font-size: larger;
+        }
+        .b1::first-letter {
+            text-transform: uppercase;
+            font-style:bold;
+            font-size: 80px;
+            font-weight: 900;
+            color:blueviolet;
+        }
+        .c1{
+            color: green;
+            text-decoration: underline;
+            font-size: larger ;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="card">
+        <p class="b1">
+            The only way to do great work is 
+        </p>
+        <p class="b2">
+            to love what you do.
+        </p>
+        <p class="c1">- Steve Jobs</p>
+    </div>
+    
+</body>
+</html>
