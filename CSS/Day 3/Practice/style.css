@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background: #2d3154;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 200px 250px 100px;
+  grid-template-rows: 200px 150px 100px;
+  gap: 10px;
+  width: 800px;
+}
+
+.green {
+     background: #6db64b;
+    }
+.red {
+     background: #ef2b2b;
+    }
+.orange {
+     background: #f4a62a; 
+    }
+
+    

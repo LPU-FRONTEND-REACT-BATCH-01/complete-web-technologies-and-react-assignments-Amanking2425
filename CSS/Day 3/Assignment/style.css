@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #242A34;
+    width: 100%;
+    height: 54px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 54px;
+    padding: 0 16px;
+    gap: 16px;
+}
+
+.logo-version {
+    list-style: none;
+    flex-shrink: 0;
+}
+
+.logo-version a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    list-style: none;
+    background-color: #1c222c;
+    border: 1px solid #3a4252;
+    border-radius: 6px;
+    padding: 0 10px;
+    height: 34px;
+    flex: 1;
+    max-width: 520px;
+}
+
+
+
+.searchbar input {
+    background: none;
+    border: none;
+    outline: none;
+    color: #aab0bc;
+    font-size: 14px;
+    flex: 1;
+    width: 100%;
+}
+
+.searchbar input::placeholder {
+    color: #555e6e;
+}
+
+.shortcut {
+    background-color: #2a313e;
+    border: 1px solid #3a4252;
+    border-radius: 4px;
+    color: #7a8394;
+    font-size: 11px;
+    padding: 2px 5px;
+    flex-shrink: 0;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 30px;
+    margin-left: auto;
+}
+
+.menu-items li {
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.menu-items li:hover {
+    color: #61DAFB;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    gap: 14px;
+    flex-shrink: 0;
+}
+
+.icons a {
+    display: flex;
+    align-items: center;
+}
+
+
+
